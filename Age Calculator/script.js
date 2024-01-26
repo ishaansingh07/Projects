@@ -1,3 +1,16 @@
+// File: Age Calculator
+// Author: Ishaan Singh
+// Date: 26/01/2024
+
+// Description:
+// ------------
+// The functionality of the code is to calculate the age 
+// according to the input given on calender as birth date
+
+// Contact Information:
+// --------------------
+// ishaan.singh2k@gmail.com
+
 let userInput = document.getElementById("date");
 userInput.max = new Date().toISOString().split("T")[0]; // to block future input dates
 let result = document.getElementById("result")
